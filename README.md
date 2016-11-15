@@ -1,6 +1,12 @@
 Zabbix-agent Role for Zabbix 3.2
 =================
 
+Supported OSes
+--------------
+Debian 7 and 8
+Ubuntu 16
+RHEL / CentOS 6 and 7
+
 Role Variables
 --------------
 
