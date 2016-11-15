@@ -10,6 +10,5 @@
      
   - lineinfile: dest=/etc/zabbix/zabbix_agentd.conf regexp="{{ item }}=" state=absent
     with_items:
-      - "Server="
       - "Include="
     notify: restart zabbix-agent
