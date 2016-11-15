@@ -29,8 +29,8 @@ Example Playbook
 License
 -------
 
-Apache Licence v2 [1]
+Apache Licence v2
 
-[1] http://www.apache.org/licenses/LICENSE-2.0
+http://www.apache.org/licenses/LICENSE-2.0
 
 Based on INDIGO project work.
