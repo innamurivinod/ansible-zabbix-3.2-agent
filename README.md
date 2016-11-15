@@ -33,4 +33,6 @@ Apache Licence v2
 
 http://www.apache.org/licenses/LICENSE-2.0
 
-Based on INDIGO project work.
+Based on INDIGO project work:
+
+https://github.com/indigo-dc/ansible-role-zabbix-agent
