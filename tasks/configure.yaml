@@ -4,7 +4,7 @@
       - { var: "ServerActive", value: "{{zabbix_agent_server}}:{{zabbix_agent_server_port}}"}
       - { var: "Hostname", value: "{{zabbix_agent_hostname_prefix}}{{ansible_hostname}}"}
       - { var: "Server", value: "{{zabbix_agent_server}}"}
-      - { var: "HostMetadata", value: "{{ zabbix_agent_metadata }}"}
+      - { var: "HostMetadataItem", value: "{{ zabbix_agent_metadata }}"}
       - { var: "RefreshActiveChecks", value: "60"}
     notify: restart zabbix-agent
      
