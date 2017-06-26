@@ -12,7 +12,7 @@ galaxy_info:
   # - CC-BY
   license: Apache Licence v2
   
-  min_ansible_version: 1.5
+  min_ansible_version: 1.6
 
   #
   # Below are all platforms currently available. Just uncomment
