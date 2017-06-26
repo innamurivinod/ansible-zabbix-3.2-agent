@@ -20,10 +20,6 @@ The variables that can be passed to this role and a brief description about them
 	zabbix_agent_server: localhost
 	# Zabbix port in the server to connect to
 	zabbix_agent_server_port: 10051
-	# HostMetadata value in the agent config
-	zabbix_agent_metadata: system.uname
-	# Prefix to be added to the Hostname value in the agent config
-	zabbix_agent_hostname_prefix: ""
 
 How to Install
 --------------
