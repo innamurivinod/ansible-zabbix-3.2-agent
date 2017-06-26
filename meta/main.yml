@@ -2,14 +2,6 @@ galaxy_info:
   author: Eugene Varnavsky
   description: Simple zabbix-agent Role for Zabbix 3.2, supports RHEL and Ubuntu OS families.
   issue_tracker_url: https://github.com/varnav/ansible-zabbix-3.2-agent
-  
-  # Some suggested licenses:
-  # - BSD (default)
-  # - MIT
-  # - GPLv2
-  # - GPLv3
-  # - Apache
-  # - CC-BY
   license: Apache Licence v2
   
   min_ansible_version: 1.6

@@ -6,20 +6,22 @@ Role for Zabbix 3.2 for most popular linux distros with easy and minimal configu
 Supported OSes
 --------------
 Debian 7 and 8  
-Ubuntu LTS 16 and (not tested) 14
-RHEL / CentOS 6, 7 and (not tested) 5
+Ubuntu LTS 16 and (not tested) 14  
+RHEL / CentOS 6, 7 and (not tested) 5  
 
 May support more OSes, please report any success/failures.
 
 Role Variables
 --------------
 
-The variables that can be passed to this role and a brief description about them are as follows.
+Whole configuration is 2 parameters only, and port is optional:
 
-	# Zabbix server to connect to
-	zabbix_agent_server: localhost
-	# Zabbix port in the server to connect to
-	zabbix_agent_server_port: 10051
+```
+# Zabbix server to connect to
+zabbix_agent_server: localhost
+# Zabbix port in the server to connect to
+zabbix_agent_server_port: 10051
+```
 
 How to Install
 --------------
