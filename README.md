@@ -31,6 +31,14 @@ cd /etc/ansible/roles
 git clone https://github.com/varnav/ansible-zabbix-3.2-agent.git zabbix-agent 
 ```
 
+or
+
+```
+cd /etc/ansible/roles
+ansible-galaxy install varnav.zabbix-3.2-agent
+```
+
+
 Example Playbook
 ----------------
 
