@@ -54,6 +54,13 @@ How to run
 ansible-playbook zabbix-agent.yml --limit zabbix-clients 
 ```
 
+This role is conservative. It will try not upgrade or reconfigure existing agents.
+
+Disclaimer
+----------
+
+No warranty. Use at your own risk. Test first.
+
 License
 -------
 
