@@ -125,7 +125,7 @@ galaxy_info:
   #  - quantal
   #  - raring
   #  - saucy
-  #  - trusty
+    - trusty
   #  - utopic
   #  - vivid
   #  - wily
@@ -149,7 +149,7 @@ galaxy_info:
   - name: EL
     versions:
   #  - all
-  #  - 5
+    - 5
     - 6
     - 7
   #- name: Windows

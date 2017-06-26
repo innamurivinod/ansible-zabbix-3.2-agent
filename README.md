@@ -6,8 +6,10 @@ Role for Zabbix 3.2 for most popular linux distros with easy and minimal configu
 Supported OSes
 --------------
 Debian 7 and 8  
-Ubuntu 16  
-RHEL / CentOS 6 and 7  
+Ubuntu LTS 16 and (not tested) 14
+RHEL / CentOS 6, 7 and (not tested) 5
+
+May support more OSes, please report any success/failures.
 
 Role Variables
 --------------
