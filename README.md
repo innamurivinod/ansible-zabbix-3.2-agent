@@ -1,5 +1,7 @@
-Zabbix-agent Role for Zabbix 3.2
-=================
+Simple zabbix-agent Role for Zabbix 3.2
+=======================================
+
+Role for Zabbix 3.2 for most popular linux distros with easy and minimal configuration.
 
 Supported OSes
 --------------
