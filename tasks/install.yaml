@@ -1,4 +1,10 @@
 ---
+  - name: Download Zabbix Debian 9 release deb file
+    get_url: 
+      url="http://repo.zabbix.com/zabbix/3.2/debian/pool/main/z/zabbix-release/zabbix-release_3.2-1+stretch_all.deb"
+      dest="/tmp/zabbix-release_3.2-1.deb"
+    when: ansible_os_family == "Debian" and ansible_distribution == "Debian" and ansible_distribution_major_version|int == 9
+
   - name: Download Zabbix Debian 8 release deb file
     get_url: 
       url="http://repo.zabbix.com/zabbix/3.2/debian/pool/main/z/zabbix-release/zabbix-release_3.2-1+jessie_all.deb"
